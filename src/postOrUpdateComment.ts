@@ -25,7 +25,7 @@ import {
 import { createDeploySignature } from "./hash";
 
 const BOT_SIGNATURE =
-  "<sub>🔥 via [Firebase Hosting GitHub Action](https://github.com/marketplace/actions/deploy-to-firebase-hosting) 🌎</sub>";
+  "<sub>🔥 via [Firebase Hosting GitHub Action](https://github.com/hashlab/firebase-action-hosting-deploy)</sub>";
 
 export function createBotCommentIdentifier(signature: string) {
   return function isCommentByBot(comment): boolean {
